@@ -1,0 +1,170 @@
+body {
+    width: 925px;
+    background-color: #eeeeee;
+    margin: 0 auto;
+}
+
+article {
+    width: 710px;
+}
+
+.sidebar {
+    width: 190px;
+    margin-right: 25px;
+}
+
+.sublogo {
+    margin-bottom: 3px;
+}
+
+.heading {
+    padding-left: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+footer {
+    width: 925px;
+    height: 30px;
+    background-image: url('../photo/main/footer_Background.jpg');
+    position: relative;
+}
+
+main {
+    width: 925px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 13px;
+}
+
+.column {
+    float: left;
+}
+
+.column :not(p) {
+    text-align: center;
+}
+
+.block1, .block2 {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.column {
+    width: 170px;
+    height: 220px;
+    background-color: white;
+    margin: 10px 0px;
+}
+
+.column p {
+    width: 74%;
+}
+
+.column img, .column p {
+    display: block;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.column * {
+    margin-top: 15px;
+}
+
+.subtitle {
+    font-size: 10px;
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+.column5, .column6 {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    width: 350px;
+    height: 210px;
+    background-color: white;
+}
+
+p {
+    font-size: 11.5px;
+    color: black;
+}
+
+.sidebar .selection {
+    background-color: #ffe000;
+    margin-top: 2px;
+    height: 52px;
+    position: relative;
+}
+
+.selection p {
+    position: absolute;
+    top: 50%;
+    margin-top: -0.5rem;
+}
+
+.discription {
+    text-align: right;
+    margin-left: -10px;
+}
+
+.selection-2 {
+    height: 40px;
+}
+
+.table-img table, .info-box {
+    height: 170px;
+}
+
+.table-img td {
+    position: relative;
+}
+
+.table-img img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.selection-2 p {
+    background-color: #ffe000;
+    display: inline-block;
+    width: auto;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 10px;
+    padding: 4px;
+}
+
+.legal-position {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    color: white;
+}
+
+.info-box td {
+    font-size: 12px;
+    padding: 9px;
+}
